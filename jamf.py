@@ -226,3 +226,15 @@ st.markdown(f"<span style='font-size: 18px;'>We migrated from Jamf to Mosyle (Fu
 st.markdown("[Open the post](https://macadmins.slack.com/?redir=%2Farchives%2FCAL8UHH1N%2Fp1727895669.874669%3Fthread_ts%3D1727895604.065859%26cid%3DCAL8UHH1N%26name%3DCAL8UHH1N%26perma%3D1727895669.874669)",unsafe_allow_html=True)
 
 st.markdown("____________________________________________")
+
+st.markdown(f"**<span style='font-size: 24px;'>Macos Password Issue</span>**",unsafe_allow_html=True)
+st.markdown(f"**<span style='font-size: 18px;'>Posted on r/Intune</span>**",unsafe_allow_html=True)
+st.markdown(f"**<span style='font-size: 18px;'>Posted by : disposeable1200</span>**",unsafe_allow_html=True)
+st.markdown(f'''<span style='font-size: 18px;'>Nope. This is a flaw with Intune.
+
+With Jamf you can store the password in extension attributes, but with Intune there's nowhere to store the password.
+
+Maybe eventually Microsoft will implement this, but currently we're having to use Jamf alongside Intune.</span>''',unsafe_allow_html=True)
+st.markdown("[Open the post](https://www.reddit.com/r/Intune/comments/1f7rt73/comment/llafcif/)",unsafe_allow_html=True)
+
+st.markdown("____________________________________________")
